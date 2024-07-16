@@ -17,7 +17,7 @@ services:
       test: ["CMD", "curl", "-f", "http://localhost:8000/inference/ETH"]
       interval: 10s
       timeout: 10s
-      retries: 26
+      retries: 28
     volumes:
       - ./inference-data:/app/data
 
