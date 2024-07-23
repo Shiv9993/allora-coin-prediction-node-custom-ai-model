@@ -448,8 +448,6 @@ curl --location 'http://localhost:6000/api/v1/functions/execute' --header 'Conte
 Response: you will get code: `200` if everything is fine
   
 
-  "code": "200"
-
 ### Check Updater node:
 ```console
 curl http://localhost:8000/update
