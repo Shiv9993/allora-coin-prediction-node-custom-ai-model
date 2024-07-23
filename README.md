@@ -328,6 +328,8 @@ volumes:
 To save: CTRL+X+Y Enter
 
 ## Run worker
+
+## Note: IT TAKES APPROX 3 TO 4 MIN TO START THE INFERENCE , SINCE THE MODEL IS TRAINING IN THE BACKGROUND... SO PLEASE CHECK THE LOGS OF THE INFERENCE IN DIFFERENT TERMINAL/DOCKER DESKTOP
 ```console
 sudo docker compose build && sudo docker compose up -d
 ```
