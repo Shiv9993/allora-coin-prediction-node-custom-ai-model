@@ -473,6 +473,6 @@ docker ps
 
 ### After PC restart
 ```console
-cd basic-coin-prediction-node
+cd allora-coin-prediction-node-custom-ai-model
 sudo docker compose up -d
 ```
