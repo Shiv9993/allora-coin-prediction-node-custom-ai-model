@@ -4,30 +4,9 @@
 
 #
 
-<h1 align="center">Price Prediction Worker Node</h1>
+<h1 align="center">Price Prediction Worker Node with AutoGluon AI</h1>
 
 
-
-## Remove all docker files
-```console
-# Stop all running containers
-docker stop $(docker ps -q)
-
-
-# Prune everything (containers, images, volumes, networks)
-docker system prune -a --volumes -f
-```
-## Note: Recover your mneomic
-```console
-allorad keys list
-```
-keep your keys safe.
-
-## Clean all basic-coin-prediction and allora-chain files
-```console
-cd $HOME
-sudo rm -r basic-coin-prediction-node allora-chain
-```
 
 ## Install dependecies
 
@@ -109,7 +88,7 @@ allorad keys add testkey
 # Install
 cd $HOME && git clone https://github.com/Shiv9993/allora-coin-prediction-node-custom-ai-model.git
 
-cd basic-coin-prediction-node
+cd allora-coin-prediction-node-custom-ai-model
 
 
 mkdir worker1-data worker2-data worker3-data head-data
