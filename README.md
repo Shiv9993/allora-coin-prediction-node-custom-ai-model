@@ -345,18 +345,10 @@ Leave the node connected for atleast 1 to 3 hours. Then you will. find code 200 
 # Ensure you are in the right directory
 cd $HOME && cd basic-coin-prediction-node
 
-# Check worker 1 logs
-docker compose logs -f worker-1
-
-# Exit the log using ctrl+c
-
-# Check worker 2 logs
-docker compose logs -f worker-2
-
-# Exit the log using ctrl+c
-
-# Check worker 3 logs
-docker compose logs -f worker-3
+# Check worker logs
+use docker ps for container ids
+then
+docker logs -f CONTAINER-ID (type that worker container id there)
 
 # Exit the log using ctrl+c
 ```
